@@ -1,0 +1,11 @@
+uniform float graphInt[512];
+uniform int wx;
+uniform int wy;
+half4 main(float2 coord){
+    for(int i=0; i<512; i++){
+        if(i<wx&&coord.y+1>graphInt[i]&&i==int(coord.x)){
+            return half4(0,0,0,1);
+        }
+    }
+    return half4(1,0,0,1);
+}
