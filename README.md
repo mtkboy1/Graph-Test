@@ -4,3 +4,4 @@ It doesn't exist and shouldn't exist, it's just AGSL testing.
 I think it helps me understand the boundaries of Android in general.
 <h1>Testing</h1>
 For testing, you must have an Android 13+ phone.
+<h1><a href="https://developer.android.com/develop/ui/views/graphics/agsl">AGSL</a></h1>
